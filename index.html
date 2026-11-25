@@ -1,234 +1,75 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Karla – Wärme für Obdachlose</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karla</title>
   <style>
-    * { box-sizing: border-box; }
-
     body {
-      margin: 0;
-      background-color: #f5efe3;
-      color: #4a4038;
-      font-family: Georgia, "Times New Roman", serif;
-      line-height: 1.7;
-    }
-
-    header {
-      text-align: center;
-      padding: 70px 24px 50px;
-      background-color: #efe5d2;
-      border-bottom: 3px solid #d8c8a8;
-    }
-
-    header h1 {
-      margin: 0 0 12px;
-      font-size: 2.6rem;
-      letter-spacing: 1px;
-      color: #6b5a44;
-    }
-
-    header p {
-      margin: 0;
-      font-size: 1.1rem;
-      font-style: italic;
-      color: #8a7a62;
-    }
-
-    main {
-      max-width: 760px;
+      font-family: Georgia, serif;
+      max-width: 700px;
       margin: 0 auto;
-      padding: 50px 24px 70px;
+      padding: 2rem 1.25rem;
+      line-height: 1.7;
+      color: #222;
+      background: #fdfcf9;
     }
-
-    section {
-      background-color: #fbf7ee;
-      border: 1px solid #e2d6bd;
-      border-radius: 10px;
-      padding: 34px 36px;
-      margin-bottom: 32px;
-      box-shadow: 0 2px 8px rgba(120, 100, 70, 0.07);
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.25rem;
     }
-
-    section h2 {
-      margin-top: 0;
-      font-size: 1.5rem;
-      color: #6b5a44;
-      border-bottom: 2px solid #e2d6bd;
-      padding-bottom: 10px;
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 2rem;
+      border-bottom: 2px solid #e0dcd2;
+      padding-bottom: 0.3rem;
     }
-
-    .spenden {
-      list-style: none;
-      padding: 0;
-      margin: 18px 0 0;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 12px;
+    ul {
+      padding-left: 1.2rem;
     }
-
-    .spenden li {
-      background-color: #efe5d2;
-      border-radius: 8px;
-      padding: 14px 16px;
-      text-align: center;
-      font-weight: bold;
-      color: #6b5a44;
+    li {
+      margin-bottom: 0.4rem;
     }
-
-    .formular {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-      margin-top: 20px;
-    }
-
-    .formular label {
-      font-weight: bold;
-      color: #6b5a44;
-      margin-top: 10px;
-    }
-
-    .formular input,
-    .formular select,
-    .formular textarea {
-      font-family: inherit;
-      font-size: 1rem;
-      padding: 10px 12px;
-      border: 1px solid #d8c8a8;
-      border-radius: 6px;
-      background-color: #fffdf8;
-      color: #4a4038;
-    }
-
-    .formular input:focus,
-    .formular select:focus,
-    .formular textarea:focus {
-      outline: 2px solid #c9b48c;
-    }
-
-    .formular button {
-      margin-top: 18px;
-      align-self: flex-start;
-      font-family: inherit;
-      font-size: 1rem;
-      font-weight: bold;
-      color: #fbf7ee;
-      background-color: #8a7a62;
-      border: none;
-      border-radius: 6px;
-      padding: 12px 26px;
-      cursor: pointer;
-    }
-
-    .formular button:hover {
-      background-color: #6b5a44;
-    }
-
-    .hinweis {
-      font-size: 0.95rem;
-      color: #8a7a62;
-      border-left: 3px solid #d8c8a8;
-      padding-left: 14px;
-      margin-top: 22px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px 24px 50px;
-      font-size: 0.95rem;
-      color: #8a7a62;
-    }
-
-    @media (max-width: 600px) {
-      header h1 { font-size: 2rem; }
-      section { padding: 26px 22px; }
+    .lead {
+      font-size: 1.1rem;
+      color: #555;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>Karla</h1>
-    <p>Wärme für Obdachlose – ein Anfang in meiner Stadt</p>
-  </header>
+  <h1>Hallo Welt</h1>
+  <p class="lead">Das ist meine erste Website.</p>
 
-  <main>
+  <h2>Wer ich bin</h2>
+  <p>
+    Ich stehe dafür ein, dass niemand in der ganzen Stadt übersehen wird –
+    und ich stehe dafür ein, dass ich etwas tun kann: in meiner Stadt.
+    Ich sammle Decken, Jacken, Kleidung, Geld und Essen und verteile es an
+    die Menschen, die auf der Straße leben. Besonders im Winter zählt jede
+    warme Decke und jede Jacke.
+  </p>
+  <p>
+    Und ich möchte dabei nicht nur Dinge weitergeben, sondern auch ein
+    Stück Gottes Liebe – ein Lächeln, ein offenes Ohr, das Gefühl,
+    gesehen zu werden.
+  </p>
 
-    <section>
-      <h2>Wer ich bin</h2>
-      <p>
-        Ich bin Karla, 14 Jahre alt und Schülerin. Ich bin katholisch und glaube daran,
-        dass Gottes Liebe nicht nur in der Kirche spürbar sein soll, sondern da, wo Menschen
-        sie am meisten brauchen – auf der Straße, im Kalten, im Alltag. Ich bin keine
-        Organisation und kein Verein, sondern ein Mädchen mit einer Idee und der festen
-        Überzeugung, dass man nicht groß sein muss, um etwas Großes anzufangen.
-      </p>
-    </section>
+  <h2>Was ich sammle</h2>
+  <ul>
+    <li>Warme Decken und Schlafsäcke</li>
+    <li>Jacken, Kleidung und Schuhe – neu oder gebraucht</li>
+    <li>Handschuhe, Mützen, Schals</li>
+    <li>Geld – ich kaufe davon warmes Essen, Getränke und andere wichtige Dinge</li>
+    <li>Haltbare Lebensmittel</li>
+    <li>Hygieneartikel</li>
+  </ul>
 
-    <section>
-      <h2>Mein Ziel</h2>
-      <p>
-        Ich möchte Obdachlosen helfen – irgendwann auf der ganzen Welt, aber ich fange
-        dort an, wo ich stehen kann: in meiner Stadt. Ich sammle alte Decken, Jacken,
-        Geld und Essen und verteile es an die Menschen, die auf der Straße leben.
-        Besonders im Winter zählt jede warme Decke und jede Jacke. Und ich möchte dabei
-        nicht nur Dinge weitergeben, sondern auch ein Stück Gottes Liebe – ein Lächeln,
-        ein offenes Ohr, das Gefühl, gesehen zu werden.
-      </p>
-    </section>
-
-    <section>
-      <h2>Was ich sammle</h2>
-      <ul class="spenden">
-        <li>Decken</li>
-        <li>Jacken</li>
-        <li>Geld</li>
-        <li>Essen</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Kontakt</h2>
-      <p>
-        Bei Interesse oder wenn du etwas spenden möchtest – zum Beispiel eine Decke,
-        eine Jacke, Essen oder Geld – schreib mir einfach hier:
-      </p>
-
-      <form action="mailto:karlarvc@icloud.com" method="post" enctype="text/plain" class="formular">
-        <label for="name">Dein Name</label>
-        <input type="text" id="name" name="Name" required>
-
-        <label for="email">Deine E-Mail</label>
-        <input type="email" id="email" name="E-Mail" required>
-
-        <label for="spende">Was möchtest du spenden?</label>
-        <select id="spende" name="Spende">
-          <option>Decke</option>
-          <option>Jacke</option>
-          <option>Geld</option>
-          <option>Essen</option>
-          <option>Etwas anderes</option>
-        </select>
-
-        <label for="nachricht">Deine Nachricht</label>
-        <textarea id="nachricht" name="Nachricht" rows="5" required></textarea>
-
-        <button type="submit">Absenden</button>
-      </form>
-
-      <p class="hinweis">
-        Mein Standort ist in Nordrhein-Westfalen (NRW). Anfragen und Spenden aus der
-        Umgebung sind am einfachsten – aber schreib gerne trotzdem, wir finden eine Lösung.
-      </p>
-    </section>
-
-  </main>
-
-  <footer>
-    Karla · Spendenaktion für Obdachlose · Nordrhein-Westfalen
-  </footer>
+  <h2>Kontakt</h2>
+  <p>
+    Du möchtest etwas abgeben oder mithelfen? Schreib mir gerne – ich freue
+    mich über jede Nachricht.
+  </p>
 
 </body>
 </html>
